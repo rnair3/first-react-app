@@ -14,7 +14,7 @@ class App extends Component {
         showPersons: false
     }
 
-    deletePersonhandler =(personIndex)=>{
+    deletePersonHandler =(personIndex)=>{
         //const persons = this.state.persons;   //not to be used as we get the ref of state var may lead to unpredictable app
         //const persons = this.state.persons.slice();
         const persons = [...this.state.persons];
@@ -49,7 +49,8 @@ class App extends Component {
   render() {
 
         const style = {
-            backgroundColor: 'white',
+            backgroundColor: 'green',
+            color: 'white',
             font: 'inherit',
             border: '1px solid blue',
             padding: '8px',
@@ -64,18 +65,29 @@ class App extends Component {
                     {this.state.persons.map((person, index) => {
                         return <Person name={person.name}
                                        age ={person.age}
-                                       click={() => this.deletePersonhandler(index)}
+                                       click={() => this.deletePersonHandler(index)}
                                         key ={person.id}
                                         changed={(event) => this.nameChangeHandler(event, person.id)}/>
                     })}
                 </div>
 
             );
+
+            style.backgroundColor = 'red';
+        }
+
+        const classes = [];
+        if(this.state.persons.length <= 2){
+            classes.push('red');
+        }
+        if(this.state.persons.length <= 1){
+            classes.push('bold');
         }
 
     return (
       <div className="App">
-        <h1>First react app</h1>
+          <h1>First react app</h1>
+            <p className={classes.join(' ')}> This is working</p>
         <button style={style}
             onClick={this.togglePersonsHandler}
         >Switch Name</button>
