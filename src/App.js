@@ -54,11 +54,11 @@ class App extends Component {
             font: 'inherit',
             border: '1px solid blue',
             padding: '8px',
-            cursor: 'pointer',
-            ':hover': {
-                backgroundColor: 'lightgreen',
-                color: 'black'
-            }
+            cursor: 'pointer'
+            // ':hover': {
+            //     backgroundColor: 'lightgreen',
+            //     color: 'black'
+            // }
         };
 
         let persons = null;
@@ -77,11 +77,11 @@ class App extends Component {
 
             );
 
-            style.backgroundColor = 'red';
-            style[':hover'] = {
-                backgroundColor:'salmon',
-                color: 'black'
-            };
+             style.backgroundColor = 'red';
+            // style[':hover'] = {
+            //     backgroundColor:'salmon',
+            //     color: 'black'
+            // };
         }
 
         const classes = [];
@@ -93,7 +93,7 @@ class App extends Component {
         }
 
     return (
-        <StyleRoot>
+
       <div className="App">
           <h1>First react app</h1>
             <p className={classes.join(' ')}> This is working</p>
@@ -104,7 +104,7 @@ class App extends Component {
           {persons}
 
       </div>
-        </StyleRoot>
+
     );
    // return React.createElement('div', {className: 'App'}, React.createElement('h1',null, 'Hi, I\'m React App'));
   }
@@ -154,4 +154,5 @@ class App extends Component {
                     <Person name={this.state.persons[2].name} age={this.state.persons[2].age}/>
                 </div>
  */
-export default Radium(App);
+//export default Radium(App);
+export default App;
