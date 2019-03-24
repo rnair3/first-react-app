@@ -8,7 +8,7 @@ const person = (props)=>{
     //         width: '450px'
     //     }
     // };
-
+    console.log('Person.js render');
     return (
         <div className={c.Person}>
             <p onClick={props.click}>I'm a {props.name} and I'm {props.age}</p>
