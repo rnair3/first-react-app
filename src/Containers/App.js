@@ -34,8 +34,21 @@ class App extends Component {
         return state;
     }
 
+    // componentWillMount() {
+    //     console.log('App.js compWillMount');
+    // }
+
     componentDidMount() {
         console.log('App.js componentDidMount');
+    }
+
+    shouldComponentUpdate(nextProps, nextState, nextContext) {
+        console.log('App.js shouldComponentUpdate');
+        return true;
+    }
+
+    componentDidUpdate(prevProps, prevState, snapshot) {
+        console.log('App.js componentDidUpdate');
     }
 
     deletePersonHandler =(personIndex)=>{
