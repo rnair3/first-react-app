@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9acda960-5480-42ea-b132-6c9a6e35e0e3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Cockpit/Cockpit.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Cockpit/Cockpit.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Persons/Persons.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Persons/Persons.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Containers/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Containers/App.js" afterDir="false" />
-    </list>
+    <list default="true" id="9acda960-5480-42ea-b132-6c9a6e35e0e3" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -129,7 +124,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="1905" />
     <option name="width" value="1950" />
     <option name="height" value="2100" />
@@ -172,7 +167,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../assignment-two" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../AngularProjects/Books" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="D:\Work\ReactProjects\first-react-app\node_modules\eslint" />
@@ -219,16 +214,15 @@
       <workItem from="1552965485347" duration="2787000" />
       <workItem from="1553302376317" duration="8023000" />
       <workItem from="1553805074333" duration="445000" />
-      <workItem from="1553989646256" duration="3704000" />
+      <workItem from="1553989646256" duration="4009000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43689000" />
+    <option name="totallyTimeSpent" value="43994000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="762" y="0" width="780" height="840" extended-state="0" />
-    <editor active="true" />
+    <frame x="-6" y="-6" width="1549" height="846" extended-state="6" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.17583893" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
